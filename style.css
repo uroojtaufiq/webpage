@@ -1,0 +1,109 @@
+body {
+  font-family: 'Arial', sans-serif;   /* setting the font */
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #4CAF50, #FFC107);  /*a linear gradient background from green to saffron */
+
+  color: #333;  /* text color (dark gray) */
+  
+}
+
+.navbar {
+  background-color: #2c6b2f;    /* dark green background color for the navigation bar */
+  color: #fff;    /* white color for the text */
+  padding: 1em 2em;     /* adds padding inside the navbar to make it look spacious */
+  text-align: center;     /* centers the content inside the navbar horizontally */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);   /* adding a fine shadow below the navbar for a 3D effect */
+  
+}
+
+.navbar ul {
+  list-style: none;
+  /* removes the default bullet points from the unordered list */
+
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  justify-content: center;
+  /* using flexbox to align the list items horizontally and center them */
+}
+
+.navbar li {
+  margin: 0 15px;
+  /* Aadding horizontal space between each navigation item */
+}
+
+.navbar a {
+  color: #fff;    /* setting link color to white */
+  text-decoration: none;
+  font-weight: bold;      /* makes the links bold */
+  transition: color 0.3s ease;  /* smooth transition effect for color changes upon hovering */
+}
+
+.navbar a:hover {
+  color: #f1c40f;       /* changes the link color to a golden yellow when hovered */
+}
+
+main {
+  padding: 20px;
+  max-width: 1200px;      /* limits the maximum width of the content to 1200px to make it easier to read */
+  margin: 0 auto;           /* centers the main content horizontally on the page */
+}
+
+section {
+  padding: 20px;
+  border-radius: 8px;     /* rounds the corners of the sections */
+
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);      /* adds a fine shadow for a card like appearance */
+
+  margin-bottom: 20px;    /* sdds space between sections */
+
+  color: #333;    /* color of text inside sections */
+  
+}
+
+h1, h2 {
+  color: #333;    /* sets a color for all h1 and h2 headings */
+  margin-bottom: 15px;    /* sdds spacing below the headings */
+
+}
+
+img {
+  width: 100%;      /* to make sure the images take up the full width of their container */
+  height: auto;     /* maintains the aspect ratio of images while scaling */
+  max-height: 300px;      /* limits the maximum height of images to 300px */
+  object-fit: cover;      /* to ensure the images cover their container, cropping if necessary */
+  border-radius: 8px;     /* rounds the corners of the images */
+
+}
+
+table {
+  border-collapse: collapse;    /* to ensure the table borders are collapsed into a single border */
+  width: 100%;      /* to ensure the table takes up the full width of its container */
+  margin-top: 20px;     /* adding space above the table */
+  background: transparent;      /* keeping the table background transparent */
+}
+
+th, td {
+  border: 1px solid #ddd;   /* adding a color border around table cells */
+  padding: 12px;      /* add a padding inside the table cells for spacing */
+  text-align: left;     /* Aligns text inside the table cells to the left */
+}
+
+th {
+  background: transparent;      /* keeping the background of table headers transparent */
+  color: #333;      /* setting the text color of table headers */
+
+}
+
+
+footer {
+  background-color: #2c6b2f;
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+  clear: both;    /* to ensure the footer clears any floating elements */
+
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+}
